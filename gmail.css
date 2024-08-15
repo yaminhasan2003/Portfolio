@@ -1,0 +1,43 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Gmail Button styles */
+  .gmail-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #757575;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .gmail-button:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .gmail-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .button-text {
+    margin-top: 2px;
+  }
+  
+  

@@ -1,0 +1,229 @@
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0.3px;
+}
+
+#logo {
+  width: 70px;
+  height: 80px;
+  padding-top: 2rem;
+  margin: 5px;
+}
+
+nav {
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  color: #151415;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  color: #151415;
+}
+
+nav > ul > li {
+  color: rgb(11, 11, 11);
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  font-size: 150%;
+}
+
+nav > ul > li:hover {
+  background-color: rgb(226, 216, 178);
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+h1,
+h2,
+h4{
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome-section > p {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(42, 142, 165);
+  border-color: rgb(63, 53, 53);
+}
+
+.projects-section-header {
+  max-width: 100%;
+  position: relative;
+  top: 10%;
+ 
+}
+
+.projects-section{
+  background-color: rgb(248, 241, 228);
+  height: 100vh;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0px;
+  max-width: 1400px;
+  margin: 10px auto;
+  padding: 20px 10px;
+  position: relative;
+  top: 22%;
+}
+
+.projects-section img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.projects-section::after {
+  content: "";
+  width: 350px;
+}
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: #e3e5e7;
+}
+
+.contact-section-header > 
+   h2 { font-size: 3rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 5rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #1f1f1f;
+  transition: transform 0.2s ease-out;
+  background-color:rgb(4, 0, 255);
+  border-radius:4px;
+  margin:0 2px;
+  color: white;
+  display: flex;
+
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/* Style all font awesome icons */
+.fb-button {
+  display: inline-block;
+  padding: 5% 20px;
+  border-radius: 5px;
+  background-color: #3b5998;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.fb-button:hover {
+  background-color: #2d4373;
+}
+
+.fb-button img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.gmail-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: ;
+}
+
+.gmail-button img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
